@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Youtube Roulette!</title>
+	<link rel = "stylesheet" href = "fishbowl.css"></link>
+	<script type="text/javascript" src = "fishbowl.js"></script>
+</head>
+<body>
+	<div id = "fishbowlwrapper">
+		<div id = "title"><p>Youtube Roulette!</p></div>
+		<div id = "video">
+			<iframe src = "https://www.youtube.com/embed/QRYzre4bf7I?ecver=2" width = "640" height = "360" frameborder="0" allowfullscreen>
+			</iframe>
+		</div>
+		<div id = "controls">
+			<form id = "submit" method = 'post' action = '/videosubmit'>
+				<input id = "searchbox" type="url" name="url">
+				<input id = "searchbutton" type="submit" name="urlsubmit" value = "Submit Video">
+			</form>
+			<form id = "random" method = 'get' action = '/'>
+				<input id = "randombutton" type = "submit" name = "randomizer" value = "Random Video!">
+			</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body{
+	background: #E9EBEE;
+}
+#fishbowlwrapper{
+	background:#FFFFFF;
+
+	position:relative;
+	height:100%;
+	width:640px;
+
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+
+#title{
+	background: #3B5998;
+
+	height:20%;
+	width:100%;
+}
+#title > p{
+	height:100%;
+	width:100%;
+
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: auto;
+	margin-bottom: auto;
+
+	text-align:center;
+	font-size:32px;
+	color:#FFFFFF;
+}
+
+
+#video{
+	height:60%;
+	width:100%;
+}
+
+
+#controls{
+	height:20%;
+	width:100%;
+}
+#controls > #submit{
+	height:50%;
+	width:100%;
+}
+#controls > #submit > #searchbox{
+	height:50%;
+	width:100%;
+
+	box-sizing: border-box;
+}
+#controls > #submit > #searchbutton{
+	height:50%;
+	width:100%;
+	color: #3B5998;
+}
+#controls > #random{
+	height:50%;
+	width:100%;
+}
+#controls > #random > #randombutton{
+	height:100%;
+	width:100%;
+}
